@@ -1,0 +1,11 @@
+tensorflow
+websocket-client
+pandas
+numpy
+TA-Lib
+stable-baselines3
+gymnasium
+plotly
+dash
+scikit-learn
+seaborn

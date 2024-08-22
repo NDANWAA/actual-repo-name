@@ -1,0 +1,26 @@
+intents:
+  - get_bot_status
+  - update_symbol
+  - explain_concept
+
+entities:
+  - symbol
+  - concept
+
+slots:
+  symbol:
+    type: text
+  concept:
+    type: text
+
+responses:
+  utter_ask_symbol:
+    - text: "Please provide the trading symbol you'd like to update to."
+
+  utter_ask_concept:
+    - text: "Which concept would you like to learn more about?"
+
+actions:
+  - action_get_bot_status
+  - action_update_symbol
+  - action_explain_concept

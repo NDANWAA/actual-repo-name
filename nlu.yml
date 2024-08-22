@@ -1,0 +1,15 @@
+nlu:
+- intent: get_bot_status
+  examples: |
+    - What is the current status of the trading bot?
+    - Is the DQN agent running?
+    - How is the DQN agent performing?
+    - Get bot status
+    - Check the status of the bot
+
+- intent: explain_concept
+  examples: |
+    - Explain what [Monte Carlo simulation](concept) means
+    - What is [OHLC data](concept)?
+    - Can you describe [Q-learning](concept)?
+    - What does [DQN](concept) mean?
